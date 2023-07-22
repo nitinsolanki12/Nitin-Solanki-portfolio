@@ -1,0 +1,80 @@
+#heading{
+    text-align: center;
+}
+
+body{
+    background-color: orange;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    justify-content: center;
+}
+
+.navbar li,a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
+
+.navbar a{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
+#image{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    border-radius: 50%;
+    background-size: contain;
+    justify-content: center;
+   
+}
+img:hover{
+    transform: scale(1.1)
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name,.email,.phoneno{
+    display: flex;
+
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22%;
+    width:80%;
+    margin-left:120px;
+}
+.contactme{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+    margin-right: 50px;
+    
+}
+
+.left img{
+    border-radius: 50%;
+}
